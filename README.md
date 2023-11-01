@@ -1,5 +1,5 @@
 
-![cbimage](https://github.com/jil1710/readmedemo/assets/125335932/f63c6e59-83c2-4f93-be8e-fec3748982d2)
+![cbimage](/images/271915325-f63c6e59-83c2-4f93-be8e-fec3748982d2.png)
 
 # Azure Function
 
@@ -41,12 +41,12 @@
 
     - **Process file uploads :** In a retail solution, a partner system can submit product catalog information as files into blob storage. You can use a blob triggered function to validate, transform, and process the files into the main system as they're uploaded.
 
-        ![image](https://github.com/jil1710/readmedemo/assets/125335932/668c7e7e-241a-4329-8917-780325de84f2)
+        ![image](/images/271900758-668c7e7e-241a-4329-8917-780325de84f2.png)
 
 
     - **Run scheduled tasks :** Functions enables you to run your code based on a cron schedule that you define. For example, might be analyzed for duplicate entries every 15 minutes to avoid multiple communications going out to the same customer.
  
-        ![image](https://github.com/jil1710/readmedemo/assets/125335932/3e1ce470-5573-4877-9c9f-fc47cecc6a68)
+        ![image](/images/271901166-3e1ce470-5573-4877-9c9f-fc47cecc6a68.png)
 
       ```csharp
           [FunctionName("TimerTriggerCSharp")]
@@ -64,17 +64,17 @@
 
     - **Respond to database changes :** There are processes where you might need to log, audit, or perform some other operation when stored data changes. Functions triggers provide a good way to get notified of data changes to initial such an operation.
          
-        ![image](https://github.com/jil1710/readmedemo/assets/125335932/6e2a69e5-73fd-46d8-88f6-6ae5a1377a01)
+        ![image](/images/271901594-6e2a69e5-73fd-46d8-88f6-6ae5a1377a01.png)
 
      - **Build a scalable web API :** An HTTP triggered function defines an HTTP endpoint. These endpoints run function code that can connect to other services directly or by using binding extensions. You can compose the endpoints into a web-based API. Http Trigger that is executed whenever an HTTP request is made.
  
-         ![image](https://github.com/jil1710/readmedemo/assets/125335932/8b2d7212-cd90-447c-8726-ee76e7381ee2)
+         ![image](/images/271901786-8b2d7212-cd90-447c-8726-ee76e7381ee2.png)
 
        - For Example
       
-         ![image](https://github.com/jil1710/readmedemo/assets/125335932/0cabff9c-8369-4bc9-9823-61ed2126e899)
+         ![image](/images/271914911-0cabff9c-8369-4bc9-9823-61ed2126e899.png)
 
-          ![image](https://github.com/jil1710/readmedemo/assets/125335932/ad0b2d93-3416-489a-b9c2-49c9f0a03ff3)
+          ![image](/images/271914845-ad0b2d93-3416-489a-b9c2-49c9f0a03ff3.png)
 
 ## To Publish the Azure Functions from Visual studio: 
 
